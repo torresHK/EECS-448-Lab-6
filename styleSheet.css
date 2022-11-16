@@ -1,0 +1,134 @@
+.navbar {
+	background-color: Silver;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar a:hover {
+	background: #ddd;
+}
+
+body {
+	background-color: AliceBlue;
+	font-family: "Arial";
+	font-size: 20pt;
+}
+
+.mainBody {
+	margin-top: 60px;
+	border-color: red;
+	border-width: 3px;
+}
+
+#leftBox {
+	width: 60%;
+	float: left;	
+}
+
+#favoriteLinks {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#favoriteLinks li {
+	display: block;
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#favoriteLinks li a:hover {
+	color: blue;
+}
+
+#youtubeVideo {
+	background-image: url(images/pattern.png);
+	background-size: 100%
+	background-repeat: repeat;
+	background-attachment: fixed;
+	width: 690px;
+	height: 388px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#rightBox {
+	width: auto;
+	float: left;
+	margin-left: 10%;
+}
+
+#pfp {
+	background-image: url(images/pattern.png);
+	background-size: 100%
+	background-repeat: repeat;
+	background-attachment: fixed;
+	padding: 10px;
+	margin-top: 30px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
+
+#inputArea {
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.groupBox {
+	display: block;
+	height: auto;
+	width: auto;
+}
+
+.groupBox label {
+	width: 100%;
+	display: block;
+	margin-top: 0px;
+}
+
+.inputBox {
+	margin-top: 0px;
+	display: block;
+}
+
+.inputBox input {
+	margin-top: 0px;
+}
+
+
+#submitArea {
+	float: left;
+	width: 100%;
+}
+
+#submitArea p {
+	width: 100%;
+	text-align: center;
+}
+
+#submitArea button {
+	display: block;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}

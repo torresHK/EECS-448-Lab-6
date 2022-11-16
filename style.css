@@ -1,0 +1,53 @@
+.navbar {
+	background-color: Silver;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar a:hover {
+	background: #ddd;
+}
+
+body {
+	background-color: AliceBlue;
+	font-family: "Arial";
+	font-size: 20pt;
+}
+
+.mainBody {
+	background-color: AliceBlue;
+	font-family: "Arial";
+	font-size: 20pt;
+	margin-top: 60px;
+	border-color: red;
+	border-width: 3px;
+}
+
+.greenCell {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin: 2px;
+	background-color: LightGreen;
+}
+
+
+.blueCell {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin: 2px;
+	background-color: LightSkyBlue;
+}

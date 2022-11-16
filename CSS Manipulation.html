@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Manipulation</title>
+		<script src="Lab 5 Code.js"></script>
+		<link href="styleSheet.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="index.html">Index Page</a>
+			<a href="Password Validator.html">Password Validator</a>
+			<a href="Slide Show.html">Slide Show</a>
+			<a href="Personal Profile.html">Personal Profile</a>
+			<a href="CSS Manipulation.html">CSS Manipulation</a>
+			<a href="Multiplication Table.html">Multiplication Table</a>
+			<a href="Quiz.html">Quiz</a>
+			<a href="customerFrontend.html">Web Store</a>
+		</div>
+		<div class="mainBody">
+			<div id="dummyText">
+				<p>
+					This is some dummy text for testing out the CSS manipulation. Ignore me. Unless I change. Then maybe don't ignore me.
+					Unless you want to. In that case I don't know, because if you're looking at this you're probably grading this or somehow
+					randomly encountered this page. If you're grading this you probably shouldn't ignore me. If you found this randomly,
+					how, why, and could I use you as a case study in online behavior?
+				</p>
+			</div>
+			<div id="inputArea">
+				<div class="groupBox">
+					<label>Border:</label>
+					<div class="inputBox">
+						<input type="text" id="borderRed" placeholder="Red Value">
+						<input type="text" id="borderGreen" placeholder="Green Value">
+						<input type="text" id="borderBlue" placeholder="Blue Value">
+						<input type="text" id="borderWidth" placeholder="Border Width">
+					</div>
+				</div>
+				<div class="groupBox" id="backgroundInputs">
+					<label>Background:</label>
+					<div class="inputBox">
+						<input type="text" id="backgroundRed" placeholder="Red Value">
+						<input type="text" id="backgroundGreen" placeholder="Green Value">
+						<input type="text" id="backgroundBlue" placeholder="Blue Value">
+					</div>
+				</div>
+				<div id="submitArea">
+					<p>Inputted color values (RGB) should range from 0-255!</p>
+					<button type="button" onclick="updateValues()">Display Changes</button>
+				</div>
+			</div>
+		</div>
+	</body>
+<html>

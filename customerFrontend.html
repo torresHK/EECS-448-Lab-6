@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Store</title>
+		<script src="formChecker.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="index.html">Index Page</a>
+			<a href="Password Validator.html">Password Validator</a>
+			<a href="Slide Show.html">Slide Show</a>
+			<a href="Personal Profile.html">Personal Profile</a>
+			<a href="CSS Manipulation.html">CSS Manipulation</a>
+			<a href="Multiplication Table.html">Multiplication Table</a>
+			<a href="Quiz.html">Quiz</a>
+			<a href="customerFrontend.html">Web Store</a>
+		</div>
+		<div class="mainBody">
+			<form id="shopForm" method="post" action="customerBackend.php" onsubmit="return validate();">
+				<label for="mouse">Username:</label>
+				<input type="text" id="username" name="username"><br>
+				<label for="mouse">Password:</label>
+				<input type="password" id="password" name="password"><br>
+
+				<label for="mouse">Custom Mouse Quantity ($20/per)</label>
+				<input type="number" value="0" id="mouse" name="mouse"><br>
+				<label for="keyboard">Custom Keyboard Quantity ($40/per)</label>
+				<input type="number" value="0" id="keyboard" name="keyboard"><br>
+				<label for="headphones">Custom Headphones Quantity ($30/per)</label>
+				<input type="number" value="0" id="headphones" name="headphones"><br>
+
+				<input type="radio" value="free" name="shipping">
+				<label for="free">Free 7 day</label><br>
+				<input type="radio" value="Over Night" name="shipping">
+				<label for="overnight">$50.00 over night</label><br>
+				<input type="radio" value="Three Day" name="shipping">
+				<label for="threeday">$5.00 three day</label><br>
+
+				<input type="button" value="Reset" onclick="reset();">			
+				<input type="submit" value="Place Order">
+			</form>
+		</div>
+	</body>
+<html>
